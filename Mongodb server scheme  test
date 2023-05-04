@@ -1,0 +1,5 @@
+i. Mongo has got a DB for testing purpose i.e test by default.
+ii.So to test it we have our mongo.exe i.e. mongo shell waiting for our input.
+iii. We’ll start by inserting in our test db
+db.test.save({TestField :’ White House’})
+where test is the db and save is the insert command , TestField is the column name and WhiteHouse is the value of it.
